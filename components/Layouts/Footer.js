@@ -68,19 +68,15 @@ class Footer extends Component {
                     <div className="col-md-6">
                       <ul className="footer-quick-links">
                         <li>
-                          <Link href="/terms-condition">
-                            <a>Terms and Conditions</a>
-                          </Link>
+                          <a href="/terms-condition">Terms and Conditions</a>
                         </li>
                         <li>
-                          <Link href="/privacy-policy">
-                            <a>Privacy Policy</a>
-                          </Link>
+                          <a href="/privacy-policy">Privacy Policy</a>
                         </li>
                         <li>
-                          <Link href="/refund-cancellation-policy">
-                            <a>Refund Cancellation Policy</a>
-                          </Link>
+                          <a href="/refund-cancellation-policy">
+                            Refund Cancellation Policy
+                          </a>
                         </li>
                       </ul>
                     </div>
@@ -133,7 +129,12 @@ class Footer extends Component {
                       activeClassName="active"
                     >
                       <img
-                        style={{ cursor: "pointer", marginTop : '40px', paddingTop: '20px', borderTop : '1px solid #3c4350' }}
+                        style={{
+                          cursor: "pointer",
+                          marginTop: "40px",
+                          paddingTop: "20px",
+                          borderTop: "1px solid #3c4350",
+                        }}
                         src="/images/blog_logo.png"
                         width={200}
                         className="white-logo"

@@ -22,7 +22,7 @@ class ContactInfo extends Component {
                                 <div className="content-title">
                                     <h3>Email</h3>
                                     <p>info@bbfootballschools.com</p>
-                                    <p>hello@enJogo.com</p>
+                                    <p>hello@enjogo.com</p>
                                 </div>
                             </div>
                         </div>
